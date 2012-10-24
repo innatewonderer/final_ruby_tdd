@@ -1,5 +1,7 @@
-require_relative '../artist.rb'
-require_relative '../song.rb'
-require_relative '../genre.rb'
+require 'rspec'
+require 'yaml' 
 
-require 'yaml'
+require '../artist'
+# require_relative '../artist'
+# require_relative '../song'
+# require_relative '../genre'

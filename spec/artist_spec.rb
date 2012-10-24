@@ -1,5 +1,4 @@
-require_relative 'spec_helper.rb'
-require_relative '../artist.rb'
+require_relative 'spec_helper'
 
 describe Artist do
 	
@@ -9,10 +8,10 @@ describe Artist do
 
 	end
 
-	# describe "#new" do
+	describe "#new" do
 		it "returns a new artist object" do
 		@artist.should be_an_instance_of Artist
 		end
-	# end
+	end
 end
 
